@@ -1,6 +1,6 @@
 # Leetcode-Solution
 <!---LeetCode Topics Start-->
-# LeetCode Topics for sql 
+# LeetCode Topics
 ## Database
 |  |
 | ------- |
