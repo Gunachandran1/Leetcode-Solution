@@ -15,6 +15,7 @@
 | [0577-employee-bonus](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0577-employee-bonus) |
 | [0584-find-customer-referee](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0584-find-customer-referee) |
 | [0586-customer-placing-the-largest-number-of-orders](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0586-customer-placing-the-largest-number-of-orders) |
+| [0595-big-countries](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0595-big-countries) |
 | [1280-students-and-examinations](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1280-students-and-examinations) |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 <!---LeetCode Topics End-->
