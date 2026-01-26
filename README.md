@@ -18,5 +18,6 @@
 | [0595-big-countries](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0595-big-countries) |
 | [0596-classes-with-at-least-5-students](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0596-classes-with-at-least-5-students) |
 | [1280-students-and-examinations](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1280-students-and-examinations) |
+| [1327-list-the-products-ordered-in-a-period](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1327-list-the-products-ordered-in-a-period) |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 <!---LeetCode Topics End-->
