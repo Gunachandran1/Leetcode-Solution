@@ -20,4 +20,16 @@
 | [1280-students-and-examinations](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1280-students-and-examinations) |
 | [1327-list-the-products-ordered-in-a-period](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1327-list-the-products-ordered-in-a-period) |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
+## String
+|  |
+| ------- |
+| [3746-minimum-string-length-after-balanced-removals](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/3746-minimum-string-length-after-balanced-removals) |
+## Stack
+|  |
+| ------- |
+| [3746-minimum-string-length-after-balanced-removals](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/3746-minimum-string-length-after-balanced-removals) |
+## Counting
+|  |
+| ------- |
+| [3746-minimum-string-length-after-balanced-removals](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/3746-minimum-string-length-after-balanced-removals) |
 <!---LeetCode Topics End-->
