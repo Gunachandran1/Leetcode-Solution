@@ -32,4 +32,16 @@
 |  |
 | ------- |
 | [3746-minimum-string-length-after-balanced-removals](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/3746-minimum-string-length-after-balanced-removals) |
+## Array
+|  |
+| ------- |
+| [0189-rotate-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0189-rotate-array) |
+## Math
+|  |
+| ------- |
+| [0189-rotate-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0189-rotate-array) |
+## Two Pointers
+|  |
+| ------- |
+| [0189-rotate-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0189-rotate-array) |
 <!---LeetCode Topics End-->
