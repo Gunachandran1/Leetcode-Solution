@@ -24,6 +24,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0020-valid-parentheses) |
+| [0242-valid-anagram](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0242-valid-anagram) |
 | [3746-minimum-string-length-after-balanced-removals](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/3746-minimum-string-length-after-balanced-removals) |
 ## Stack
 |  |
@@ -53,10 +54,12 @@
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0242-valid-anagram) |
 ## Sorting
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0242-valid-anagram) |
 ## Linked List
 |  |
 | ------- |
