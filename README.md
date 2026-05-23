@@ -39,6 +39,7 @@
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0189-rotate-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0217-contains-duplicate) |
 ## Math
@@ -48,6 +49,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0189-rotate-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0234-palindrome-linked-list) |
 ## Hash Table
