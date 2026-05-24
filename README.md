@@ -42,11 +42,13 @@
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0189-rotate-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0217-contains-duplicate) |
+| [0268-missing-number](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0283-move-zeroes) |
 ## Math
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0189-rotate-array) |
+| [0268-missing-number](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0268-missing-number) |
 ## Two Pointers
 |  |
 | ------- |
@@ -59,11 +61,13 @@
 | ------- |
 | [0217-contains-duplicate](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0268-missing-number) |
 ## Sorting
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0268-missing-number) |
 ## Linked List
 |  |
 | ------- |
@@ -72,4 +76,12 @@
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0234-palindrome-linked-list) |
+## Binary Search
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0268-missing-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
