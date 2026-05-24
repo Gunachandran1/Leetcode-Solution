@@ -1,12 +1,14 @@
 class Solution {
     public void moveZeroes(int[] nums) {
         if(nums.length > 1){
-            int first0Finder = 0;
+            int first0Finder = -1;
             for(first0Finder = 0; first0Finder < nums.length ; first0Finder++ ){
                 if(nums[first0Finder] == 0){
                     break;
                 }
             }
+
+            if(first0Finder == -1) return ;
 
             for(int findingNonZero = first0Finder+1; findingNonZero < nums.length ; findingNonZero++){
                 if(nums[findingNonZero] != 0){
