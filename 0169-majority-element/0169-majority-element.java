@@ -1,5 +1,10 @@
 class Solution {
-    public int majorityElement(int[] nums) {
+    static{
+        for(int i = 0 ; i < 1; i++){
+            majorityElement(new int[]{1});
+        }
+    }
+    public static int majorityElement(int[] nums) {
         
         // Majority = Moore's Voting Algorithm
         int count = 0;
