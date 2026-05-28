@@ -1,8 +1,8 @@
 class Solution {
     public List<Integer> majorityElement(int[] arr) {
 
-        int ele1 = -1;
-        int ele2 = -1;
+        int ele1 = Integer.MAX_VALUE;
+        int ele2 = Integer.MIN_VALUE;
         int cnt1 = 0;
         int cnt2 = 0;
 
@@ -39,10 +39,9 @@ class Solution {
         if(cnt1 > arr.length/3){
             lst.add(ele1);
         }
-        if(ele1 != ele2){
+
             if(cnt2 > arr.length/3){
             lst.add(ele2);
-        }
         }
         
 
