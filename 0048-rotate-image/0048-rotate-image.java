@@ -9,16 +9,17 @@ class Solution {
             }
         }
 
-        for(int i = 0 ; i < mat.length ; i++){
-            int x = 0;
-            int j = mat[i].length -1;
-            while(x < j){
-                int temp = mat[i][x];
-                mat[i][x] = mat[i][j];
-                mat[i][j] = temp;
-                x++;
+        for(int[] arr : mat){
+            int i = 0 ;
+            int  j = arr.length - 1;
+            while(i < j){
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+                i++;
                 j--;
             }
+            
         }
     }
     
