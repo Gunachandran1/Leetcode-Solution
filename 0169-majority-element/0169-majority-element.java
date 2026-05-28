@@ -3,14 +3,13 @@ class Solution {
         
         // Moore's voting algorithm
         int count = 0;
-        int ele = arr[0];
+        int ele = -1;
 
         for(int i = 0 ; i < arr.length ; i++){
 
             if(count == 0)
             {
                 ele = arr[i];
-
             }
 
             if(ele == arr[i]){
