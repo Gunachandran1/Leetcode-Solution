@@ -25,12 +25,14 @@
 | ------- |
 | [0020-valid-parentheses](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0020-valid-parentheses) |
 | [0242-valid-anagram](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0242-valid-anagram) |
+| [1021-remove-outermost-parentheses](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1021-remove-outermost-parentheses) |
 | [3746-minimum-string-length-after-balanced-removals](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/3746-minimum-string-length-after-balanced-removals) |
 ## Stack
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0020-valid-parentheses) |
 | [0234-palindrome-linked-list](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0234-palindrome-linked-list) |
+| [1021-remove-outermost-parentheses](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1021-remove-outermost-parentheses) |
 | [3746-minimum-string-length-after-balanced-removals](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/3746-minimum-string-length-after-balanced-removals) |
 ## Counting
 |  |
