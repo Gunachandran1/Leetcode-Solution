@@ -36,6 +36,7 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0229-majority-element-ii) |
 | [3746-minimum-string-length-after-balanced-removals](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/3746-minimum-string-length-after-balanced-removals) |
 ## Array
 |  |
@@ -55,6 +56,7 @@
 | [0169-majority-element](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0217-contains-duplicate) |
+| [0229-majority-element-ii](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0485-max-consecutive-ones) |
@@ -84,6 +86,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0217-contains-duplicate) |
+| [0229-majority-element-ii](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0268-missing-number) |
 | [0560-subarray-sum-equals-k](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0560-subarray-sum-equals-k) |
@@ -93,6 +96,7 @@
 | [0075-sort-colors](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0217-contains-duplicate) |
+| [0229-majority-element-ii](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0268-missing-number) |
 ## Linked List
