@@ -3,8 +3,13 @@ class Solution {
         
         List<List<Integer>> lst = new ArrayList<>();
 
+        generateRows(lst,n);
+        return lst;
 
+    }
 
+    public void generateRows(List<List<Integer>> lst , int n)
+    {
         for(int i = 1 ; i <= n ; i++){
             int ans = 1;
             List<Integer> lst1 = new ArrayList<>();
@@ -18,7 +23,5 @@ class Solution {
             lst.add(lst1);
 
         }
-        return lst;
-
     }
 }
