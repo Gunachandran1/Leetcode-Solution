@@ -1,35 +1,37 @@
 class Solution {
-    public int findBeauty(int[] freq){
-
-        int maxi = Integer.MIN_VALUE;
+    public int findMini(int[] freq){
         int mini = Integer.MAX_VALUE;
 
         for(int ele : freq){
-            if(ele > 0 && ele > maxi ) maxi = ele;
-            if(ele > 0 && ele < mini) mini = ele;
+            if(ele > 0) mini = Math.min(mini,ele);
         }
-        if(mini == 0 || mini == 0) return 0; 
-        return maxi - mini;
+
+        return mini;
     }
 
-
-
     public int beautySum(String s) {
-
+        if(s.length() == 0 || s==null || s.length() == 1) return 0;
         int sum = 0;
         int n = s.length();
-        for(int i = 0 ; i < n;i++){
-            int[] arr = new int[26];
+
+        for(int i = 0 ; i < n ; i++){
+            int[] freq = new int[26];
+            int maxi = Integer.MIN_VALUE;
+            
             for(int j = i ; j < n ; j++){
-                int index = s.charAt(j) - 'a';
-                arr[index] = arr[index]+1;
+                
+                int index = s.charAt(j)-'a';
+                freq[index]++;
 
-                sum += findBeauty(arr);
+                maxi = Math.max(maxi,freq[index]);
 
+                
+
+                sum += (maxi - findMini(freq));
             }
-            // System.out.println(Arrays.toString(arr));
         }
 
-        return sum;
+
+        return sum ;
     }
 }
