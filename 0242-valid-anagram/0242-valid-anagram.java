@@ -4,7 +4,6 @@ class Solution {
         if(s.length() != t.length()) return false;
 
         int[] countArr = new int[26];
-        System.out.print(countArr.length);
 
         for(int i = 0 ; i < s.length() ; i++){
             int value1 = s.charAt(i) - 'a';
