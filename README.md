@@ -27,6 +27,7 @@
 | [0151-reverse-words-in-a-string](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0242-valid-anagram) |
 | [1021-remove-outermost-parentheses](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1021-remove-outermost-parentheses) |
+| [1903-largest-odd-number-in-string](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1903-largest-odd-number-in-string) |
 | [3746-minimum-string-length-after-balanced-removals](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/3746-minimum-string-length-after-balanced-removals) |
 ## Stack
 |  |
@@ -72,6 +73,7 @@
 | [0048-rotate-image](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0268-missing-number) |
+| [1903-largest-odd-number-in-string](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1903-largest-odd-number-in-string) |
 ## Two Pointers
 |  |
 | ------- |
@@ -153,4 +155,8 @@
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0560-subarray-sum-equals-k) |
+## Greedy
+|  |
+| ------- |
+| [1903-largest-odd-number-in-string](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1903-largest-odd-number-in-string) |
 <!---LeetCode Topics End-->
