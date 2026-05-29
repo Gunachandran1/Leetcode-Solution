@@ -17,7 +17,10 @@ class Solution {
         for(char key : mpp.keySet()){
             pq.add(key);
         }
-        System.out.println(pq);
+        // System.out.println(pq);
+
+        // dont use for - each loop , instead 
+        // use the priority queue methods for best results
 
         while(pq.size() > 0){
 
