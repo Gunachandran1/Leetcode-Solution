@@ -12,7 +12,7 @@ class Solution {
             if(!mpp.containsKey(fruits[r])) mpp.put(fruits[r],1);
             else mpp.put(fruits[r],mpp.get(fruits[r])+1);
 
-            while(mpp.size() > 2){
+            if(mpp.size() > 2){
                 mpp.put(fruits[l],mpp.get(fruits[l])-1);
                 if(mpp.get(fruits[l]) == 0) mpp.remove(fruits[l]);
                 l++;
