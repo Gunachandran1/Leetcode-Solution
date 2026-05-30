@@ -21,7 +21,6 @@ class Solution {
             if(len > maxi) maxi = len;
             r++;
         }
-        mpp.clear();
 
         return maxi;
     }
