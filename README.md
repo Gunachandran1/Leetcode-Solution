@@ -81,6 +81,7 @@
 | [0283-move-zeroes](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0560-subarray-sum-equals-k) |
+| [0860-lemonade-change](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0860-lemonade-change) |
 | [0904-fruit-into-baskets](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1004-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
@@ -190,6 +191,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0860-lemonade-change](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0860-lemonade-change) |
 | [1903-largest-odd-number-in-string](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1903-largest-odd-number-in-string) |
 ## Trie
 |  |
