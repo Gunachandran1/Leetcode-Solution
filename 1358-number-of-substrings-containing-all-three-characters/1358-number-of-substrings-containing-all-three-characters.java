@@ -4,10 +4,7 @@ class Solution {
         int count = 0;
 
         int l = 0 , n = s.length();
-        int[] arr = new int[3];
-        for(int i = 0 ; i < arr.length ; i++){
-            arr[i] = -1;
-        }
+        int[] arr = {-1,-1,-1};
 
         while(l < n){
 
