@@ -1,26 +1,32 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) {
 
-        // without repetition - hashing...
+        // without repetition - hashing..
 
-        // brute - find all distinct substr and compare len with maxlen
+        // optimal - using two pointers and sliding window...
 
-        int maxLen = 0;
 
-        for(int i = 0 ; i < s.length() ; i++){
-            int[] arr = new int[256];
-            int len = 0;
-            for(int j = i ; j < s.length(); j++){
-                if(arr[(int)s.charAt(j)] != 0) break;
+        int i = 0 , j = 0 , maxLen = 0 , n = s.length();
+        System.out.println(n);
 
-                arr[(int)s.charAt(j)]++;
-                len = j - i + 1;
-                if(len > maxLen) maxLen = len;
+        int[] hash = new int[256];
+        for(int k = 0 ; k < hash.length ; k++) hash[k] = -1;
+
+        while(j < n){
+            if(hash[s.charAt(j)] != -1){
+                if(hash[s.charAt(j)] >= i){
+                    i = hash[s.charAt(j)]+1;
+                }
             }
+
+            int len = j - i + 1;
+            if(len > maxLen) maxLen = len;
+
+            hash[s.charAt(j)] = j;
+            j++;
+
         }
+        return maxLen;   
 
-
-
-        return maxLen;
     }
 }
