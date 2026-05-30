@@ -7,7 +7,6 @@ class Solution {
 
 
         int i = 0 , j = 0 , maxLen = 0 , n = s.length();
-        System.out.println(n);
 
         int[] hash = new int[256];
         for(int k = 0 ; k < hash.length ; k++) hash[k] = -1;
