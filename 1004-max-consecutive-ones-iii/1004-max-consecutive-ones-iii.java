@@ -8,7 +8,7 @@ class Solution {
         while(r < n){
             
             if(nums[r] == 0) zeroCnt++;
-            while(zeroCnt > k){
+            if(zeroCnt > k){
                 if(nums[l] == 0) zeroCnt --;
                 l++;
             }
