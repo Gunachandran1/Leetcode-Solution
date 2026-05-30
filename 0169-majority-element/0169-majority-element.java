@@ -1,35 +1,25 @@
 class Solution {
-    public int majorityElement(int[] arr) {
+    public int majorityElement(int[] nums) {
         
-        // Moore's voting algorithm
-        int count = 0;
-        int ele = -1;
+        int cnt = 0;
+        int n = nums.length;
+        int ele = 0;
 
-        for(int i = 0 ; i < arr.length ; i++){
-
-            if(count == 0)
-            {
-                ele = arr[i];
-            }
-
-            if(ele == arr[i]){
-                count++;
-            }
-            else{
-                count--;
-            }
-
+        for(int i = 0 ; i < n ; i++){
+            
+            int currEle = nums[i];
+            if(cnt == 0) ele = currEle;
+            if(currEle == ele )cnt ++;
+            else cnt--;
         }
 
-        int finalCnt = 0;
-        for(int elem : arr){
-            if(ele == elem) finalCnt ++;
+        cnt = 0;
+        for(int values : nums){
+            if(values == ele){
+                cnt++;
+            }
         }
-        if(finalCnt > arr.length/2)
-        {
-            return ele;
-        }
-        return -1;
-
+        if(cnt > (n/2)) return ele;
+        return 0;
     }
 }
