@@ -10,12 +10,12 @@ class Solution {
 
             arr[s.charAt(l)-'a'] = l;
 
-            if(arr[0]!=-1 && arr[1]!=-1 && arr[2]!=-1){
+            // if(arr[0]!=-1 && arr[1]!=-1 && arr[2]!=-1){
                int firstMini = Math.min(arr[0],arr[1]);
                int mini = Math.min(firstMini,arr[2]);         
 
                count += 1+mini;
-            }
+            // }
             
             l++;
         }
