@@ -32,6 +32,7 @@
 | [0151-reverse-words-in-a-string](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0242-valid-anagram) |
+| [0290-word-pattern](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0290-word-pattern) |
 | [0451-sort-characters-by-frequency](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0451-sort-characters-by-frequency) |
 | [0796-rotate-string](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0796-rotate-string) |
 | [1021-remove-outermost-parentheses](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1021-remove-outermost-parentheses) |
@@ -132,6 +133,7 @@
 | [0229-majority-element-ii](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0268-missing-number) |
+| [0290-word-pattern](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0290-word-pattern) |
 | [0451-sort-characters-by-frequency](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0451-sort-characters-by-frequency) |
 | [0560-subarray-sum-equals-k](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0560-subarray-sum-equals-k) |
 | [0904-fruit-into-baskets](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0904-fruit-into-baskets) |
