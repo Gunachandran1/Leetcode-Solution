@@ -1,24 +1,27 @@
 class Solution {
     public void moveZeroes(int[] nums) {
-        if(nums.length > 1){
-            int first0Finder = -1;
-            for(first0Finder = 0; first0Finder < nums.length ; first0Finder++ ){
-                if(nums[first0Finder] == 0){
-                    break;
-                }
+        
+        int n = nums.length;
+        if(n==1) return;
+        int zero = -1;
+        for(int i = 0 ; i < n ; i++){
+            if(nums[i] == 0){
+                zero = i;
+                break;
             }
-
-            if(first0Finder == -1) return ;
-
-            for(int findingNonZero = first0Finder+1; findingNonZero < nums.length ; findingNonZero++){
-                if(nums[findingNonZero] != 0){
-                    int temp = nums[findingNonZero];
-                    nums[findingNonZero] = nums[first0Finder];
-                    nums[first0Finder] = temp;
-                    first0Finder++;
-                }
-            }
-
         }
+
+        if(zero == -1) return;
+
+        int j = zero+1;
+        for(j = j ; j < n ; j++){
+            if(nums[j] != 0){
+                nums[zero] = nums[j];
+                nums[j] = 0;
+                zero++;
+            }
+        }
+        
+
     }
 }
