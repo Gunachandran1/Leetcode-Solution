@@ -5,19 +5,18 @@ class Solution {
         if(n==1) return true;
 
         int count = 1;
-        int maxCount = 0;
 
         for(int i = 0 ; i < 2*n-2 ; i++){
 
             if(nums[i%n] <= nums[(i+1)%n]){
                 count ++;
-                if(count > maxCount) maxCount = count;
+                if(count == n) return true;;
             }
             else{
                 count = 1;
             }
         }
 
-        return maxCount >= n;
+        return false;
     }
 }
