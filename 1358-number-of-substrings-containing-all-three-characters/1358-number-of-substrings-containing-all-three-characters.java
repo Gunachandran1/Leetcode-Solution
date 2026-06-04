@@ -1,25 +1,30 @@
 class Solution {
     public int numberOfSubstrings(String s) {
         
+        int n = s.length();
         int count = 0;
 
-        int l = 0 , n = s.length();
-        int[] arr = {-1,-1,-1};
+        int[] arr = new int[3];
 
-        while(l < n){
+        for(int  k = 0 ; k < 3 ; k++){
+            arr[k] = -1;
+        }
+        
+        for(int r = 0 ; r < n ; r++){
 
-            arr[s.charAt(l)-'a'] = l;
+            arr[s.charAt(r)-'a'] = r;
 
-            // if(arr[0]!=-1 && arr[1]!=-1 && arr[2]!=-1){
-               int firstMini = Math.min(arr[0],arr[1]);
-               int mini = Math.min(firstMini,arr[2]);         
+            if(arr[0]!=-1 && arr[1]!=-1 && arr[2]!=-1){
+                int min = Math.min(arr[0],Math.min(arr[1],arr[2]));
 
-               count += 1+mini;
-            // }
-            
-            l++;
+                count += (min+1);
+            }
+
         }
 
+
+
         return count;
+
     }
 }
