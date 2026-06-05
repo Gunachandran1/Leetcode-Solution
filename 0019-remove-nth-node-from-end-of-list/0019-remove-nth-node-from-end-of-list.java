@@ -16,42 +16,28 @@ class Solution {
         if(head.next == null){
             return null;
         }
-        if(n==1){
-            ListNode temp = head;
-            while(temp.next.next != null){
-                temp = temp.next;
-            }
-            temp.next = null;
-            return head;
+
+        ListNode fast = head;
+        
+        while(n > 0){
+            fast = fast.next;
+            n--;
         }
 
-        int len = 0;
-
-        ListNode temp = head;
-        while(temp != null){
-            len++;
-            temp = temp.next;
-        }
-
-        if(n > len) return null;
-
-        int removeIndex = len - n + 1;
-
-        if(removeIndex == 1){
+        if(fast == null){
             head = head.next;
             return head;
         }
 
-        temp = head;
-        len = 0;
-        while(temp != null){
-            len ++;
-            if((len+1) == removeIndex){
-                temp.next = temp.next.next;
-                return head;
-            }
-            temp = temp.next;
+        ListNode slow = head;
+
+        while(fast.next != null){
+            fast = fast.next;
+            slow = slow.next;
         }
+
+        slow.next = slow.next.next;
+
         return head;
     }
 }
