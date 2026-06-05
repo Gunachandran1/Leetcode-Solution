@@ -13,21 +13,18 @@ class Solution {
         
         if(head == null || head.next == null) return head;
         
-        List<Integer> lst = new ArrayList<>();
         ListNode temp = head;
+        ListNode prev = null;
 
-        while(temp != null){
-            lst.add(temp.val);
-            temp = temp.next;
-        }
-        temp = head;
-        int i = lst.size()-1;
-        while(temp != null){
-            temp.val = lst.get(i--);
-            temp = temp.next;
+        while(temp != null)
+        {
+            ListNode front = temp.next;
+            temp.next = prev;
+            prev = temp;
+            temp = front;
         }
 
 
-        return head;
+        return prev;
     }
 }
