@@ -164,6 +164,7 @@
 | [0002-add-two-numbers](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0002-add-two-numbers) |
 | [0203-remove-linked-list-elements](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0203-remove-linked-list-elements) |
 | [0234-palindrome-linked-list](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0234-palindrome-linked-list) |
+| [0328-odd-even-linked-list](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0328-odd-even-linked-list) |
 ## Recursion
 |  |
 | ------- |
