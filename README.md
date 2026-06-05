@@ -160,10 +160,12 @@
 ## Linked List
 |  |
 | ------- |
+| [0203-remove-linked-list-elements](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0203-remove-linked-list-elements) |
 | [0234-palindrome-linked-list](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0234-palindrome-linked-list) |
 ## Recursion
 |  |
 | ------- |
+| [0203-remove-linked-list-elements](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0203-remove-linked-list-elements) |
 | [0234-palindrome-linked-list](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0234-palindrome-linked-list) |
 ## Binary Search
 |  |
