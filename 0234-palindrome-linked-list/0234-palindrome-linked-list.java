@@ -11,27 +11,41 @@
 class Solution{
     public boolean isPalindrome(ListNode head) {
 
-        List<Integer> l = new ArrayList<>();
+        if(head == null) return false;
+        if(head.next == null) return true;
 
-        ListNode ln ;
-        for(ln = head ; ln.next != null ; ln = ln.next){
-            l.add(ln.val);
+        ListNode fast = head;
+        ListNode slow = head;
+
+        while(fast.next != null && fast.next.next != null){
+            fast = fast.next.next;
+            slow = slow.next;
         }
-        l.add(ln.val);
+        ListNode newHead = reverse(slow.next);
+        slow = newHead;
+        fast = head;
 
-        int i = 0 ;
-        int j = l.size()-1;
-
-        while(i < j){
-            if(l.get(i) != l.get(j)) return false;
-
-            i++;
-            j--;
+        while(slow != null){
+            if(slow.val != fast.val) return false;
+            slow = slow.next;
+            fast = fast.next;
         }
-
+        reverse(newHead);
         return true;
 
+    }
 
+    public static ListNode reverse(ListNode node){
 
+        ListNode prev = null;
+
+        while(node != null){
+            ListNode front = node.next;
+            node.next  = prev;
+            prev = node;
+            node = front;
+        }
+
+        return prev;
     }
 }
