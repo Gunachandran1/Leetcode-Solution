@@ -1,40 +1,37 @@
 class Solution {
-    public void setZeroes(int[][] arr) {
-
+    public void setZeroes(int[][] matrix) {
+        
         int col0 = 1;
 
-        int n = arr.length;
-        int m = arr[0].length;
-
-        // Step 1: Mark rows and columns
-        for (int i = 0; i < n; i++) {
-
-            if (arr[i][0] == 0)
-                col0 = 0;
-
-            for (int j = 1; j < m; j++) {
-
-                if (arr[i][j] == 0) {
-
-                    arr[i][0] = 0;
-                    arr[0][j] = 0;
+        for(int i = 0 ; i < matrix.length ; i++){
+            for(int j = 0 ; j < matrix[i].length ; j++){
+                if(j == 0){
+                    if(matrix[i][0] == 0) col0 = 0;
+                }
+                else if(matrix[i][j] == 0){
+                    matrix[0][j] = 0;
+                    matrix[i][0] = 0;
                 }
             }
         }
 
-        // Step 2: Fill zeroes from back
-        for (int i = n - 1; i >= 0; i--) {
-
-            for (int j = m - 1; j >= 1; j--) {
-
-                if (arr[i][0] == 0 || arr[0][j] == 0) {
-                    arr[i][j] = 0;
+        for(int i = 1 ; i < matrix.length ; i++){
+            for(int j = 1 ; j < matrix[i].length ; j++){
+                if(matrix[i][j] != 0 && (matrix[0][j] == 0 || matrix[i][0] == 0)){
+                    matrix[i][j] = 0;
                 }
             }
-
-            if (col0 == 0) {
-                arr[i][0] = 0;
+        }
+        if(matrix[0][0] == 0){
+            for(int i = 0 ; i < matrix[0].length ; i++){
+                matrix[0][i] = 0;
             }
         }
+        if(col0 == 0){
+            for(int i = 0 ; i < matrix.length ; i++){
+                matrix[i][0] = 0;
+            }
+        }
+        
     }
 }
