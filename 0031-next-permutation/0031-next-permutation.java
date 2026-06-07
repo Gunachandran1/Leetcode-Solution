@@ -1,39 +1,38 @@
 class Solution {
-    public void nextPermutation(int[] arr) {
-        int n = arr.length;
-        int index = -1;
-        for(int i = n-2 ; i >= 0 ; i--){
-            if(arr[i] < arr[i+1]){
-                index = i;
-                break;
-            }
-        }
+    public void nextPermutation(int[] nums) {
+        
+        int size = nums.length;
 
-        if(index == -1){
-            int st = 0;
-            int end = n-1;
-            while(st < end){
-                swap(st++,end--,arr);
-            }
-            return;
-        }
+        for(int i = size-1 ; i > 0 ; i--){
 
-        for(int i = n-1 ; i > index ; i--){
-            if(arr[i] > arr[index]){
-                swap(i,index,arr);
-                break;
+            if(nums[i] > nums[i-1]){
+                int index = i-1;
+                for(int j = size - 1 ; j >index ; j--){
+                    if(nums[j] > nums[index]){
+                        swap(index,j,nums);break;
+                    }
+                }
+                rev(index+1,size-1,nums);
+                return;
+
             }
         }
-        int st = index+1;
-        int end = n-1;
+        rev(0,size-1,nums);
+    }
+
+    public void rev(int st , int end , int[] arr){
+        
         while(st < end){
-            swap(st++,end--,arr);
+            swap(st,end,arr);
+            st++;
+            end--;
         }
     }
 
-    void swap(int a , int b , int[] arr){
-        int temp = arr[a];
-        arr[a] = arr[b];
-        arr[b] = temp;
+
+    public void swap(int ele1 , int ele2 , int[] arr){
+        int temp = arr[ele1];
+        arr[ele1] = arr[ele2];
+        arr[ele2] = temp;
     }
 }
