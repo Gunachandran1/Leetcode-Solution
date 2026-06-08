@@ -1,21 +1,24 @@
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         
-        List<List<Integer>> mainLst = new ArrayList<>();
+        List<List<Integer>> list = new ArrayList<>();
+    
+        
 
-        for(int i = 1 ; i <=numRows ; i++){
+        for(int outer = 1 ; outer <= numRows ; outer++)
+        {
             List<Integer> lst = new ArrayList<>();
-            int ans = 1;
-            lst.add(ans);
-            
-            for(int st = 1 ; st < i ; st++){
-                ans *= (i-st);
-                ans /= st;
-                lst.add(ans);
+            int sum = 1;
+            lst.add(sum);
+            for(int i = 1 ; i <outer ; i++){
+                sum *= (outer-i);
+                sum /= i;
+                lst.add(sum);
             }
-
-            mainLst.add(lst);
+            list.add(lst);
         }
-        return mainLst;
+        
+
+        return list;
     }
 }
