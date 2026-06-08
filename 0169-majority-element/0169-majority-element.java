@@ -8,8 +8,9 @@ class Solution {
 
             if(count==0) {
                 ele = item;
+                count ++;
             }
-            if(ele == item){
+            else if(ele == item){
                 count++;
             }
             else count--;
