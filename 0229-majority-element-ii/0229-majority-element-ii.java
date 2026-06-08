@@ -1,31 +1,36 @@
 class Solution {
     public List<Integer> majorityElement(int[] nums) {
         
-        int ele1 = Integer.MIN_VALUE , ele2 = 0, cnt1 = 0 , cnt2 = 0 , n = nums.length;
-
+        int ele1 = Integer.MIN_VALUE;
+        int ele2 = 0;
+        int count1 = 0;
+        int count2 = 0;
         List<Integer> lst = new ArrayList<>();
 
-        for(int i = 0 ; i < n ; i++){
+        for(int ele : nums){
 
-            if(cnt1 == 0 && ele2 != nums[i]){ele1 = nums[i]; cnt1++;}
-            else if(cnt2 == 0 && ele1 != nums[i]){ele2 = nums[i]; cnt2++;}
+            if(count1 == 0 && ele != ele2) {ele1 = ele; count1++;}
+            else if(count2 == 0 && ele != ele1) {ele2 = ele; count2++;}
 
-            else if(nums[i] == ele1) cnt1++;
-            else if(nums[i] == ele2) cnt2++;
+            else if(ele == ele1) count1++;
+            else if(ele == ele2) count2++;
 
-            else {cnt1--; cnt2--;}
+            else{count1--; count2--;}
         }
 
-        cnt1 = 0 ; cnt2 = 0;
+        count1 = 0;
+        count2 = 0;
 
-        for(int i = 0 ; i < n ; i++){
-            if(nums[i] == ele1)cnt1++;
-            if(nums[i] == ele2)cnt2++;
+        for(int ele : nums){
+        if(ele == ele1) count1++;
+        if(ele == ele2) count2++;
         }
 
-        if(cnt1 > (n/3)) lst.add(ele1);
-        if(cnt2 > (n/3)) lst.add(ele2);
+        if(count1 > (nums.length / 3)) lst.add(ele1);
+        if(count2 > (nums.length / 3)) lst.add(ele2);
 
         return lst;
+
+
     }
 }
