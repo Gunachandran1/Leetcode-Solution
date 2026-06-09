@@ -1,25 +1,27 @@
 class Solution {
     public int totalFruit(int[] fruits) {
         
-        // maxi length subarray with atmost 2 types of numbers
-
+        int i = 0;
+        int j = 0;
         int maxi = 0;
 
-        int l = 0 , r = 0 , n = fruits.length;
-        Map<Integer,Integer> mpp = new HashMap<>();
+        HashMap<Integer,Integer> mpp = new HashMap<>();
 
-        while(r < n){
-            if(!mpp.containsKey(fruits[r])) mpp.put(fruits[r],1);
-            else mpp.put(fruits[r],mpp.get(fruits[r])+1);
+        while(j < fruits.length){
+
+            if(!mpp.containsKey(fruits[j])) mpp.put(fruits[j],1);
+            else mpp.put(fruits[j] , mpp.get(fruits[j])+1);
 
             if(mpp.size() > 2){
-                mpp.put(fruits[l],mpp.get(fruits[l])-1);
-                if(mpp.get(fruits[l]) == 0) mpp.remove(fruits[l]);
-                l++;
+                mpp.put(fruits[i],mpp.get(fruits[i])-1);
+                if(mpp.get(fruits[i]) == 0) mpp.remove(fruits[i]);
+                i++;
             }
-            int len = r - l + 1;
+
+            int len = j - i + 1;
             if(len > maxi) maxi = len;
-            r++;
+
+            j++;
         }
 
         return maxi;
