@@ -2,7 +2,7 @@ class Solution {
     public int romanToInt(String s) {
 
         Map<Character,Integer> mpp = new HashMap<>();
-        int num = 0;
+        int sum = 0;
 
         mpp.put('I',1);
         mpp.put('V',5);
@@ -12,20 +12,25 @@ class Solution {
         mpp.put('D',500);
         mpp.put('M',1000);
 
-
         for(int i = 0 ; i < s.length() ; i++){
-
-            char curCh = s.charAt(i);
-
-            if((i+1 < s.length()) && (mpp.get(s.charAt(i+1))) > mpp.get(curCh)){
-                num += (mpp.get(s.charAt(i+1)) - mpp.get(curCh));
+            char ch1 = s.charAt(i);
+            
+            if(i+1 < s.length() && mpp.get(s.charAt(i+1)) > mpp.get(ch1)){
+                sum += mpp.get(s.charAt(i+1)) - mpp.get(ch1);
                 i++;
             }
-            else{
-                num += mpp.get(curCh);
-            }
-        }
-        return num;
+            else sum += mpp.get(ch1);
 
+        }
+
+    return sum;
     }
+    
+
 }
+
+
+
+
+
+     
