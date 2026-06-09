@@ -6,14 +6,16 @@ class Solution {
 
         if(sLen != tLen) return false;
         
-        char[] arr1 = s.toCharArray();
-        char[] arr2 = t.toCharArray();
+        int[] hash = new int[26];
 
-        Arrays.sort(arr1);
-        Arrays.sort(arr2);
-        
         for(int i = 0 ; i < sLen ; i++){
-            if(arr1[i] != arr2[i]) return false;
+
+            hash[s.charAt(i)-'a']++;
+            hash[t.charAt(i)-'a']--;
+        }
+
+        for(int ele : hash){
+            if(ele != 0) return false;
         }
 
         return true;
