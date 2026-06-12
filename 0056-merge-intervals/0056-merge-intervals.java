@@ -3,25 +3,27 @@ class Solution {
 
         Arrays.sort(intervals,(a,b) -> Integer.compare(a[0] , b[0]));
 
-        List<int[]> lst = new ArrayList<>();
-        
-        for(int[] interval : intervals){
+        int index = 0;
+        for(int i = 1 ; i < intervals.length ; i++){
 
-            if(lst.isEmpty()) lst.add(interval);
-
-            else if(interval[0] <= lst.get(lst.size()-1)[1])
-            {
-                int st = interval[0];
-                int end = interval[1];
-                int maxi = Math.max(end,lst.get(lst.size()-1)[1]);
-                lst.get(lst.size()-1)[1] = maxi;
+            if(intervals[i][0] <= intervals[index][1]){
+                int maxi = Math.max(intervals[i][1],intervals[index][1]);
+                
+                if(maxi != intervals[index][1]) intervals[index][1] = maxi;
             }
+
             else{
-                lst.add(interval);
+                index ++;
+                swap(index,i,intervals);
             }
-
         }
 
-        return lst.toArray(new int[lst.size()][]);
+        return Arrays.copyOf(intervals,index+1);
+    }
+
+    void swap(int a , int b , int[][] arr){
+    int[] temp = arr[a];
+    arr[a] = arr[b];
+    arr[b] = temp;
     }
 }
