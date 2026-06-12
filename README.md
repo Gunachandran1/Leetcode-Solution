@@ -77,6 +77,7 @@
 | [0073-set-matrix-zeroes](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0081-search-in-rotated-sorted-array-ii) |
+| [0088-merge-sorted-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0128-longest-consecutive-sequence) |
@@ -128,6 +129,7 @@
 | [0031-next-permutation](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0031-next-permutation) |
 | [0061-rotate-list](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0142-linked-list-cycle-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0151-reverse-words-in-a-string) |
@@ -172,6 +174,7 @@
 | [0018-4sum](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0018-4sum) |
 | [0056-merge-intervals](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0229-majority-element-ii) |
