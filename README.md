@@ -105,6 +105,7 @@
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/2149-rearrange-array-elements-by-sign) |
+| [2965-find-missing-and-repeated-values](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/2965-find-missing-and-repeated-values) |
 ## Math
 |  |
 | ------- |
@@ -115,6 +116,7 @@
 | [0268-missing-number](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0268-missing-number) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1248-count-number-of-nice-subarrays) |
 | [1903-largest-odd-number-in-string](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1903-largest-odd-number-in-string) |
+| [2965-find-missing-and-repeated-values](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/2965-find-missing-and-repeated-values) |
 ## Two Pointers
 |  |
 | ------- |
@@ -162,6 +164,7 @@
 | [1248-count-number-of-nice-subarrays](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1248-count-number-of-nice-subarrays) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1781-sum-of-beauty-of-all-substrings) |
+| [2965-find-missing-and-repeated-values](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/2965-find-missing-and-repeated-values) |
 ## Sorting
 |  |
 | ------- |
@@ -248,6 +251,7 @@
 | [0048-rotate-image](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0073-set-matrix-zeroes) |
+| [2965-find-missing-and-repeated-values](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/2965-find-missing-and-repeated-values) |
 ## Prefix Sum
 |  |
 | ------- |
