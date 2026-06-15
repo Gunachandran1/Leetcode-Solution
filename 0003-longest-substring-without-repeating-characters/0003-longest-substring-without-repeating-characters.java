@@ -8,20 +8,23 @@ class Solution {
         int maxLen = Integer.MIN_VALUE;
         int n = s.length();
 
-        HashMap<Character,Integer> mpp = new HashMap<>();
+        int[] hash = new int[256];
+
+        for(int k = 0 ; k < 256 ; k++){
+            hash[k] = -1;
+        }
 
         while(j < n){
             char ch = s.charAt(j);
 
-            if(!mpp.containsKey(ch)) mpp.put(ch,j);
-            else{
-            if(mpp.get(ch)>= i) i = mpp.get(ch)+1;
+            if(hash[ch] != -1 && hash[ch] >= i){
+                i = hash[ch] +1 ;
             }
 
             int len = j - i + 1;
             if(len > maxLen) maxLen = len;
             
-            mpp.put(ch,j);
+            hash[ch] = j;
             j++;
         }
 
