@@ -1,24 +1,38 @@
 class Solution {
     public int numberOfSubarrays(int[] nums, int k) {
-        return calCnt(nums,k) - calCnt(nums,k-1);
+        
+        int oddNoCountLessThanEqualToK = subCount(nums,k);
+        int oddNoCountLessThanEqualToKminus1 = subCount(nums,k-1);
+
+        return oddNoCountLessThanEqualToK - oddNoCountLessThanEqualToKminus1;
     }
 
-    public int calCnt(int[] nums,int k){
+    int subCount(int[] arr , int k){
 
-        if(k < 0) return 0;
-
-        int n = nums.length;
-        int l = 0;
+        if(k < 0 ) return 0;
         int count = 0;
+
+        int i = 0;
+        int j = 0;
+        int n = arr.length;
         int sum = 0;
-        for(int r = 0 ; r < n ; r++){
-            sum += nums[r]%2;
+
+        while(j < n){
+            
+            sum += arr[j]%2;
+
             while(sum > k){
-                sum -= nums[l]%2;
-                l++;
+                sum -= arr[i]%2;
+                i++;
             }
-            count += (r-l+1);
+
+            count += (j - i + 1);
+
+            j++;
         }
+
+
+
         return count;
     }
 }
