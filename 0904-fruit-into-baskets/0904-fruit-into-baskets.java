@@ -1,16 +1,21 @@
 class Solution {
     public int totalFruit(int[] fruits) {
         
+        if(fruits == null || fruits.length == 0) return 0;
+
         int i = 0;
         int j = 0;
         int  maxi = 0;
 
         int n = fruits.length;
+        
         HashMap<Integer,Integer> mpp = new HashMap<>();
+
+
 
         while(j < n){
 
-            if(!mpp.containsKey(fruits[j])) mpp.put(fruits[j],1);
+            if(!mpp.containsKey(fruits[j])) mpp.put(fruits[j] , 1);
             else mpp.put(fruits[j],mpp.get(fruits[j])+1);
 
             while(mpp.size() > 2){
