@@ -1,25 +1,35 @@
 class Solution {
     public int numSubarraysWithSum(int[] nums, int goal) {
-        return calCount(nums,goal) - calCount(nums,goal-1);
         
+
+        int lessThanEqualToK = subArrayLengthFinder(nums,goal);
+        int lessThanEqualToKmin1 = subArrayLengthFinder(nums,goal-1);
+
+        return lessThanEqualToK - lessThanEqualToKmin1;
     }
 
-    public int calCount(int[] nums , int goal){
+    int subArrayLengthFinder(int[] arr , int k){
 
-        if(goal < 0) return 0;
-
+        if(k < 0) return 0; 
+        int i = 0;
+        int j = 0;
+        int n = arr.length;
         int count = 0;
-        int l = 0;
-        int n = nums.length;
         int sum = 0;
-        for(int r = 0 ; r < n ; r++){
-            sum += nums[r];
-            while(sum > goal){
-                sum -= nums[l];
-                l++;
+
+        while(j < n){
+            sum += arr[j];
+            
+            while( sum > k){
+                sum -= arr[i];
+                i++;
             }
-            count += (r-l+1);
+
+            count+= (j - i + 1);
+            
+            j++;
         }
+
         return count;
     }
 }
