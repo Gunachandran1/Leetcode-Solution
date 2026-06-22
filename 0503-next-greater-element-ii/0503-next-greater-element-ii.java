@@ -4,23 +4,24 @@ class Solution {
         int n = nums.length;
 
         int[] arr = new int[n];
-        int ind = 0;
+        int ind = n-1;
 
-        for(int i = 0 ; i < n ; i++){
-            int greatest = -1;
+        Stack<Integer> st = new Stack<>();
 
-            for(int j = i+1 ; j < (n+i) ; j++){
-
-                int index = j%n;
-
-                if(nums[index] > nums[i]){
-                    greatest = nums[index];
-                    arr[ind++] = greatest;
-                    break;
-                }
+        for(int i = (2*n)-1 ; i >= 0 ; i--)
+        {
+            int index = i%n;
+            while(!st.empty() && st.peek() <= nums[index]){
+                st.pop();
             }
-            if(greatest == -1) arr[ind++]= -1;
+            if(i < n){
+                if(!st.empty()) arr[ind--] = st.peek();
+                else arr[ind--] = -1;
+            }
+
+            st.push(nums[index]);
         }
+
 
         return arr;
     }
