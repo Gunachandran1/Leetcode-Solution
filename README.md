@@ -110,6 +110,7 @@
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1752-check-if-array-is-sorted-and-rotated) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2965-find-missing-and-repeated-values](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/2965-find-missing-and-repeated-values) |
 ## Math
@@ -122,6 +123,7 @@
 | [0268-missing-number](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0268-missing-number) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1248-count-number-of-nice-subarrays) |
 | [1903-largest-odd-number-in-string](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1903-largest-odd-number-in-string) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2965-find-missing-and-repeated-values](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/2965-find-missing-and-repeated-values) |
 ## Two Pointers
 |  |
@@ -308,4 +310,16 @@
 |  |
 | ------- |
 | [0503-next-greater-element-ii](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0503-next-greater-element-ii) |
+## Number Theory
+|  |
+| ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1979-find-greatest-common-divisor-of-array) |
+## Euclidean Algorithm
+|  |
+| ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1979-find-greatest-common-divisor-of-array) |
+## Greatest Common Divisor
+|  |
+| ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1979-find-greatest-common-divisor-of-array) |
 <!---LeetCode Topics End-->
