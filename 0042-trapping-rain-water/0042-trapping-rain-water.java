@@ -21,9 +21,9 @@ class Solution {
             }
         }
 
-        lbArray[height.length-1] = lbArray[height.length-2];
+        // lbArray[height.length-1] = lbArray[height.length-2];   we dont checking last and first 
 
-        for(int i = height.length-2 ; i > 0 ; i--)
+        for(int i = height.length-2 ; i >= 0 ; i--)
         {
             if(height[i] > rbArray[i+1])
             {
@@ -35,7 +35,7 @@ class Solution {
             }
         }
 
-        rbArray[0] = rbArray[1];
+        // rbArray[0] = rbArray[1];    we dont check last and first (see below i , its starting from i and moving all the way till 2nd last element)
 
 
         // System.out.print(Arrays.toString(lbArray));
