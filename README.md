@@ -327,4 +327,8 @@
 |  |
 | ------- |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1979-find-greatest-common-divisor-of-array) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
