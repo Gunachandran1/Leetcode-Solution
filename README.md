@@ -103,6 +103,7 @@
 | [0540-single-element-in-a-sorted-array](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0704-binary-search) |
+| [0832-flipping-an-image](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0832-flipping-an-image) |
 | [0860-lemonade-change](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0860-lemonade-change) |
 | [0867-transpose-matrix](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0867-transpose-matrix) |
 | [0875-koko-eating-bananas](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0875-koko-eating-bananas) |
@@ -150,6 +151,7 @@
 | [0234-palindrome-linked-list](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0283-move-zeroes) |
 | [0392-is-subsequence](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0392-is-subsequence) |
+| [0832-flipping-an-image](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0832-flipping-an-image) |
 | [0876-middle-of-the-linked-list](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0876-middle-of-the-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/2149-rearrange-array-elements-by-sign) |
@@ -241,6 +243,7 @@
 | [0136-single-number](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0137-single-number-ii) |
 | [0268-missing-number](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0268-missing-number) |
+| [0832-flipping-an-image](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0832-flipping-an-image) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -261,6 +264,7 @@
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0054-spiral-matrix) |
+| [0832-flipping-an-image](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0832-flipping-an-image) |
 | [0867-transpose-matrix](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0867-transpose-matrix) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Union-Find
@@ -274,6 +278,7 @@
 | [0054-spiral-matrix](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0073-set-matrix-zeroes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0240-search-a-2d-matrix-ii) |
+| [0832-flipping-an-image](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0832-flipping-an-image) |
 | [0867-transpose-matrix](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0867-transpose-matrix) |
 | [2965-find-missing-and-repeated-values](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/2965-find-missing-and-repeated-values) |
 ## Prefix Sum
