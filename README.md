@@ -104,6 +104,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0704-binary-search) |
 | [0860-lemonade-change](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0860-lemonade-change) |
+| [0867-transpose-matrix](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0867-transpose-matrix) |
 | [0875-koko-eating-bananas](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0875-koko-eating-bananas) |
 | [0904-fruit-into-baskets](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0930-binary-subarrays-with-sum) |
@@ -260,6 +261,7 @@
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0054-spiral-matrix) |
+| [0867-transpose-matrix](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0867-transpose-matrix) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Union-Find
 |  |
@@ -272,6 +274,7 @@
 | [0054-spiral-matrix](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0073-set-matrix-zeroes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0240-search-a-2d-matrix-ii) |
+| [0867-transpose-matrix](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0867-transpose-matrix) |
 | [2965-find-missing-and-repeated-values](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/2965-find-missing-and-repeated-values) |
 ## Prefix Sum
 |  |
