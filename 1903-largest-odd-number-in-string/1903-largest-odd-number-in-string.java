@@ -8,7 +8,11 @@ class Solution {
             int digit = num.charAt(i)-'0';
 
             if(digit %2 ==1 ){
-                return num.substring(0,i+1);
+                for(int iter = 0 ; iter <= i ; iter++)
+                {
+                    ans += num.charAt(iter);
+                }
+                return ans;
             }
         }
 
