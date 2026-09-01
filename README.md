@@ -343,4 +343,8 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/0169-majority-element) |
+## Bracket Sequences
+|  |
+| ------- |
+| [1021-remove-outermost-parentheses](https://github.com/Gunachandran1/Leetcode-Solution/tree/master/1021-remove-outermost-parentheses) |
 <!---LeetCode Topics End-->
